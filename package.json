@@ -29,13 +29,21 @@
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install && node setup.js",
+    "build": "NODE_ENV=production browserify app.js -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify | uglifyjs --compress --mangle -o bundle.min.js"
   },
   "devDependencies": {
+    "browserify": "13.1.0",
     "coveralls": "2.11.11",
+    "envify": "3.4.1",
+    "es2020": "1.1.7",
+    "nsp": "2.6.1",
     "standard": "7.1.2",
     "tap": "6.2.0",
-    "nsp": "2.6.1"
+    "uglifyify": "3.0.2",
+    "uglifyjs": "2.4.10",
+    "unassertify": "2.0.3",
+    "yo-yoify": "3.3.0"
   },
   "dependencies": {
     "choo": "3.2.0",
