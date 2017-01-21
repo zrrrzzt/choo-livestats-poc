@@ -46,7 +46,7 @@
     "yo-yoify": "3.5.0"
   },
   "dependencies": {
-    "choo": "4.0.3",
+    "choo": "4.1.0",
     "firebase": "3.6.5",
     "lodash": "4.17.4"
   }
