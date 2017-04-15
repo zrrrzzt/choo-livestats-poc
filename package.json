@@ -38,7 +38,7 @@
     "envify": "4.0.0",
     "es2020": "1.1.9",
     "nsp": "2.6.3",
-    "standard": "10.0.1",
+    "standard": "10.0.2",
     "tap": "10.3.2",
     "uglifyify": "3.0.4",
     "uglifyjs": "2.4.10",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "choo": "5.1.5",
-    "firebase": "3.7.6",
+    "firebase": "3.7.8",
     "lodash": "4.17.4"
   }
 }
