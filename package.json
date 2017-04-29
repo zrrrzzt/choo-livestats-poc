@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "browserify": "14.3.0",
-    "coveralls": "2.13.0",
+    "coveralls": "2.13.1",
     "envify": "4.0.0",
     "es2020": "1.1.9",
     "nsp": "2.6.3",
@@ -43,10 +43,10 @@
     "uglifyify": "3.0.4",
     "uglifyjs": "2.4.10",
     "unassertify": "2.0.4",
-    "yo-yoify": "3.7.0"
+    "yo-yoify": "3.7.2"
   },
   "dependencies": {
-    "choo": "5.1.5",
+    "choo": "5.4.0",
     "firebase": "3.9.0",
     "lodash": "4.17.4"
   }
