@@ -43,7 +43,7 @@
     "uglifyify": "4.0.4",
     "uglifyjs": "2.4.11",
     "unassertify": "2.1.0",
-    "yo-yoify": "4.2.0"
+    "yo-yoify": "4.3.0"
   },
   "dependencies": {
     "choo": "6.6.0",
