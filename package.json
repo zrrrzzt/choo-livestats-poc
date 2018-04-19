@@ -42,7 +42,7 @@
     "tap": "11.1.4",
     "uglifyify": "4.0.5",
     "uglifyjs": "2.4.11",
-    "unassertify": "2.1.0",
+    "unassertify": "2.1.1",
     "yo-yoify": "4.3.0"
   },
   "dependencies": {
