@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "browserify": "16.5.0",
-    "coveralls": "3.0.4",
+    "coveralls": "3.0.6",
     "envify": "4.1.0",
     "es2020": "1.1.9",
     "nsp": "3.2.1",
