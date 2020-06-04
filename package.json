@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "choo": "7.1.0",
-    "firebase": "7.14.6",
+    "firebase": "7.15.0",
     "lodash": "4.17.15"
   }
 }
