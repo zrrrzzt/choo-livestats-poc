@@ -33,7 +33,7 @@
     "build": "NODE_ENV=production browserify app.js -t envify -g yo-yoify -g unassertify -g es2020 -g uglifyify | uglifyjs --compress --mangle -o bundle.min.js"
   },
   "devDependencies": {
-    "browserify": "17.0.0",
+    "browserify": "17.0.1",
     "coveralls": "3.1.1",
     "envify": "4.1.0",
     "es2020": "1.1.9",
